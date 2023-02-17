@@ -1,0 +1,336 @@
+@font-face {
+    font-family: RalewayBold;
+    src: url('../Fonts/Raleway/static/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url('../Fonts/Raleway/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: RalewayBItalic;
+    src: url('../Fonts/Raleway/static/Raleway-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: RalewaySemiItalic;
+    src: url('../Fonts/Raleway/static/Raleway-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url('../Fonts/Raleway/static/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url('../Fonts/Raleway/static/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: RalewayItalic;
+    src: url('../Fonts/Raleway/static/Raleway-Italic.ttf');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header {
+    position: relative;
+    background-image: url("../photos/bg-gratitude.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header div {
+    position: relative;
+    z-index: 1;
+}
+
+.check,
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.header-text {
+    margin-top: 13px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 82px;
+    font-family: 'RalewayBold';
+    color: white;
+}
+
+.header-text span {
+    color: #E85F2B;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.b-but {
+    display: block;
+    background: radial-gradient(50% 50% at 50% 50%, #FF8F71 0%, #E85F2B 100%);
+    border-radius: 15px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 14px;
+    border: none;
+    margin: auto;
+    font-family: 'RalewayBold';
+    margin-top: 60px;
+}
+
+.logo {
+    margin-top: 43px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    padding: 20px 105px;
+}
+
+.scroll-text {
+    font-family: 'RalewayMedium';
+    font-size: 40px;
+    line-height: 47px;
+    color: #FF6137;
+}
+
+.scroll {
+    display: block;
+}
+
+.scroll a {
+    margin: 13px auto 0;
+}
+
+footer .container {
+    justify-content: space-between;
+    margin-right: 105px;
+}
+
+footer {
+    color: #000000;
+}
+
+.contact-item {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'RalewayRegular';
+}
+
+.adress {
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'RalewayLight';
+}
+
+.politic-items {
+    font-family: 'RalewayLight';
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.middle-text5,
+.middle-text6 {
+    font-family: 'RalewayItalic';
+}
+
+.icon-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+.right-block p {
+    text-align: right;
+    font-size: 24px;
+    line-height: 28px;
+    color: #15203B;
+}
+
+.middle-block a {
+    color: #000000;
+}
+
+.right-block1 {
+    display: none;
+}
+
+.listof-facts {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header-text {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .b-but {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .check {
+        width: 134px;
+        height: 133px;
+        left: 317px;
+    }
+
+    .logo {
+        width: 312px;
+        height: 136px;
+    }
+
+    footer {
+        padding: 20px 50px;
+    }
+
+    .right-block p {
+        font-family: 'RalewayBold';
+    }
+
+    footer .container {
+        margin-right: 0;
+    }
+
+    .adress {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .contact-item {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .politic-items {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .icon-item img {
+        width: 31px;
+        height: 31px;
+    }
+
+    .right-block p {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .social-icons {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 414px) {
+    .b-but {
+        font-size: 19px;
+        /* margin-top: 40px; */
+    }
+
+    /* footer */
+    .container {
+        display: block;
+    }
+
+    .contact-item,
+    .politic-items,
+    .contact-number,
+    .email {
+        text-align: center;
+    }
+
+    footer .container {
+        margin: 0 50px;
+    }
+
+    .social-icons {
+        justify-content: space-evenly;
+    }
+
+    .right-block1 {
+        display: block;
+    }
+
+    .right-block2 {
+        display: none;
+    }
+
+    .right-block p {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .listof-facts {
+        display: block;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    footer .container {
+        margin-right: 0;
+    }
+
+    .check {
+        width: 88px;
+        height: 87px;
+    }
+
+    .header-text {
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 32px;
+    }
+
+    .b-but {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .logo {
+        width: 238px;
+        height: 104px;
+    }
+
+    footer .container {
+        margin: 0 50px;
+    }
+
+}
